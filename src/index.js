@@ -37,8 +37,13 @@ const MORSE_TABLE = {
     '-----':  '0',
 };
 
+const value = Object.values(MORSE_TABLE);
+const key = Object.keys(MORSE_TABLE);
+
+// console.log(key, value)
+
 function decode(expr) {
-        let arr = [];
+    let arr = [];
     let arr2 = [];
     let gr = [];
     let morz = [];
